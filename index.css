@@ -1,0 +1,37 @@
+.style1 {
+  /* background-color:  */
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  margin: 30px;
+  border: none;
+  border-bottom: 3px solid gray;
+  padding-left: 10px;
+  font-family: Courier, monospace;
+}
+
+.style1:focus {
+  background-color: lightyellow;
+  outline: none;
+}
+
+.style2 {
+  color: gray;
+  margin: 30px;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 7px;
+
+  font-family: Helvetica, sans-serif;
+}
+
+.style2:focus {
+  outline: none;
+  color: black;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
